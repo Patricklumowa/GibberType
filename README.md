@@ -3,7 +3,7 @@
 <div align="center">
 
 **Transform your text into data-over-sound audio waves**
-
+[![GitHub Views](https://komarev.com/ghpvc/?username=Patricklumowa&repo=GibberType&color=22d3ee&style=flat&label=views)](https://github.com/Patricklumowa/GibberType)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Vite](https://img.shields.io/badge/Vite-5.4.20-646CFF?logo=vite)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
@@ -203,10 +203,9 @@ Have questions or suggestions? Feel free to:
 Open an [issue](https://github.com/Patricklumowa/gibbertype/issues)
 
 ---
-
 <div align="center">
 
 ⭐ Star this repo if you find it useful! 
-[![GitHub Views](https://komarev.com/ghpvc/?username=Patricklumowa&repo=GibberType&color=22d3ee&style=flat&label=views)](https://github.com/Patricklumowa/GibberType)
+
 
 </div>
