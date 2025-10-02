@@ -130,7 +130,7 @@ function App() {
           {!status && !isGenerating && (
             <div className="welcome-section">
               <div className="welcome-icon">🔊</div>
-              <h2 className="welcome-title">How can I help you today?</h2>
+              <h2 className="welcome-title">Talk to the clanker🤖?</h2>
               <p className="welcome-subtitle">Type a message to generate gibberlink sound</p>
             </div>
           )}
@@ -230,3 +230,4 @@ function App() {
 }
 
 export default App;
+
