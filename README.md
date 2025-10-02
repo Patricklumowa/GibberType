@@ -30,7 +30,7 @@ Type your message, click send, and let your AI assistant decode the audio signal
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/gibbertype.git
+git clone https://github.com/Patricklumowa/gibbertype.git
 
 # Navigate to project directory
 cd gibbertype
