@@ -122,7 +122,7 @@ The generated sounds can be:
 
 This project is inspired by and references the [GibberLink](https://github.com/PennyroyalTea/gibberlink) demo - a viral AI agent communication system that won first place at the 11labs x a16z international hackathon.
 
-## � Build for Production
+## Build for Production
 
 ```bash
 # Build optimized production bundle
@@ -172,7 +172,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## � License
+## License
 
 This project is licensed under the MIT License. The ggwave library is also open source - check the [ggwave repository](https://github.com/ggerganov/ggwave) for its license details.
 
@@ -182,7 +182,7 @@ This project is licensed under the MIT License. The ggwave library is also open 
 - **[AudioMotion-Analyzer](https://audiomotion.dev/)** by Henrique Avila Vianna - Beautiful real-time audio visualization
 - **[GibberLink](https://github.com/PennyroyalTea/gibberlink)** by Anton Pidkuiko & Boris Starkov - Original inspiration (11labs x a16z hackathon winner)
 
-## � Related Projects
+## Related Projects
 
 - [ggwave](https://github.com/ggerganov/ggwave) - The underlying data-over-sound protocol
 - [gibberlink](https://github.com/PennyroyalTea/gibberlink) - Original AI-to-AI communication demo
@@ -206,8 +206,7 @@ Open an [issue](https://github.com/Patricklumowa/gibbertype/issues)
 
 <div align="center">
 
-**Made with ❤️ and �**
-
-⭐ Star this repo if you find it useful!
+⭐ Star this repo if you find it useful! 
+[![GitHub Views](https://komarev.com/ghpvc/?username=Patricklumowa&repo=GibberType&color=22d3ee&style=flat&label=views)](https://github.com/Patricklumowa/GibberType)
 
 </div>
