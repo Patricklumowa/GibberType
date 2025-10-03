@@ -196,6 +196,7 @@ This project is licensed under the MIT License. The ggwave library is also open 
 - **Education** - Demonstrate data encoding and signal processing concepts
 - **IoT** - Simple device-to-device communication without WiFi/Bluetooth
 - **Privacy-focused Communication** - Alternative to text-based messaging
+- **Translator** - Human to ai translator*
 
 ## 📧 Support
 
