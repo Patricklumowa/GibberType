@@ -179,13 +179,15 @@ export async function startListening(onMessage: (text: string) => void): Promise
     return true;
   } catch (error) {
     console.error('Failed to start listening:', error);
+    // Ensure cleanup on error
+    stopListening();
     return false;
   }
 }
 
 export function stopListening() {
-  if (!isListening) return;
-
+  console.log('Stopping listening...');
+  
   if (scriptNode) {
     scriptNode.disconnect();
     scriptNode.onaudioprocess = null;
@@ -203,6 +205,7 @@ export function stopListening() {
   }
 
   isListening = false;
+  console.log('Listening stopped.');
 }
 
 // Send an audio message with gibberlink encoding
@@ -249,8 +252,11 @@ export async function generateGibberlink(message: string, fastest: boolean = fal
         resolve(true);
       };
       
-      source.start(0);
-      console.log('Gibberlink sound generated and playing!');
+      // Small delay to ensure microphone is fully stopped
+      setTimeout(() => {
+        source.start(0);
+        console.log('Gibberlink sound generated and playing!');
+      }, 100);
     });
   } catch (error) {
     console.error('Failed to generate gibberlink sound:', error);
